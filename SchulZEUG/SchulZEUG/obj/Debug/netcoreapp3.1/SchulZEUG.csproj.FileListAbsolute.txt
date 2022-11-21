@@ -1,0 +1,14 @@
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.csproj.AssemblyReference.cache
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.AssemblyInfoInputs.cache
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.AssemblyInfo.cs
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.csproj.CoreCompileInputs.cache
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\bin\Debug\netcoreapp3.1\SchulZEUG.exe
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\bin\Debug\netcoreapp3.1\SchulZEUG.deps.json
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\bin\Debug\netcoreapp3.1\SchulZEUG.runtimeconfig.json
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\bin\Debug\netcoreapp3.1\SchulZEUG.runtimeconfig.dev.json
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\bin\Debug\netcoreapp3.1\SchulZEUG.dll
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\bin\Debug\netcoreapp3.1\SchulZEUG.pdb
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.dll
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.pdb
+C:\Users\PB\source\repos\SchulZEUG\SchulZEUG\obj\Debug\netcoreapp3.1\SchulZEUG.genruntimeconfig.cache
