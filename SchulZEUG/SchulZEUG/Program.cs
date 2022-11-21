@@ -91,7 +91,7 @@ namespace Freq
             }
         }
 
-        static void Main4(string[] args)
+        static void Main4(string[] args) //Aufgabe1
         {
             string eingabe;
 
@@ -108,7 +108,7 @@ namespace Freq
             }
         }
 
-        static void Main5(string[] args)
+        static void Main5(string[] args) //Aufgabe2
         {
             double NettoAutragsvolumen = 0;
             int Rabatt = 0;
@@ -124,7 +124,7 @@ namespace Freq
             }
         }
 
-        static void Main6(string[] args)
+        static void Main6(string[] args) //Aufgabe3
         {
             double NettoAutragsvolumen = 0;
             int Rabatt = 0;
@@ -145,6 +145,49 @@ namespace Freq
             else
             {
                 Console.WriteLine("Du bekommst keinen Rabatt");
+            }
+        }
+
+        static void auto(string[] args)
+        {
+            string eingabe;
+            double altKm, neueKm, Liter, verbrauch, gefahreneKm;
+
+            Console.Clear();
+
+            Console.WriteLine("\n\t Mit diesem Programm wird der durchschnittliche");
+            Console.WriteLine("\t Benzinverbrauch auf 100km berechnet. \n");
+
+            Console.Write("\t Kilometerstand beim vorletzten tanken?");
+            eingabe = Console.ReadLine();
+            altKm = Convert.ToDouble(eingabe);
+
+            if (altKm < 0)
+            {
+                Console.WriteLine("Ungültige eingabe!");
+            }
+
+            Console.Write("\t Kilometerstand beim letzten tanken?");
+            eingabe = Console.ReadLine();
+            neueKm = Convert.ToDouble(eingabe);
+
+            if (neueKm < 0 || neueKm < altKm)
+            {
+                Console.WriteLine("Ungültige eingabe!");
+            }
+            else
+            {
+                Console.Write("\t Wie viele Liter haben sie getankt?");
+                eingabe = Console.ReadLine();
+                Liter = Convert.ToDouble(eingabe);
+
+                gefahreneKm = neueKm - altKm;
+                verbrauch = Liter / gefahreneKm * 100;
+
+                Console.Write("\n\n\t Der Benzinverbrauch auf 100 km betrug:");
+                Console.Write("{0:0.00}", verbrauch);
+                Console.Write(" Liter.\n");
+                Console.Read();
             }
         }
     }
