@@ -191,4 +191,87 @@ namespace Freq
             }
         }
     }
+
+     static void verhalten(string[] args) //Aufabe4 Verhaltensnoten
+        {
+            string eingabe;
+            double Note;
+
+            Console.Clear();
+
+            Console.WriteLine("Bitte geben sie hier die Note ein:");
+
+            eingabe = Console.ReadLine();
+            Note = Convert.ToDouble(eingabe);
+
+            if(Note < 1.0 || Note > 4.4)
+            {
+                Console.WriteLine("Fehleingabe!");
+            }
+            else
+            {
+                if(Note >= 1.0 && Note < 1.5)
+                {
+                    Console.WriteLine("sehr gut");
+                }
+                else if (Note >= 1.5 && Note < 2.5)
+                {
+                    Console.WriteLine("gut");
+                }
+                else if (Note >= 2.5 && Note < 3.5)
+                {
+                    Console.WriteLine("befriedigend");
+                }
+                else if (Note >= 3.5 && Note < 4.5)
+                {
+                    Console.WriteLine("unbefriedigend");
+                }
+            }
+
+        }
+
+        static void Gleichung(string[] args) //Aufabe5 Quadratische Gleichung
+        {
+            string eingabeA;
+            string eingabeB;
+            string eingabeC;
+
+            double Xwert = 5;
+
+            int _a;
+            int _b;
+            int _c;
+
+            Console.Clear();
+
+            Console.WriteLine("Geben sie den Wert für A ein");
+            eingabeA = Console.ReadLine();
+            _a = Convert.ToInt32(eingabeA);
+
+            Console.WriteLine("Geben sie den Wert für B ein");
+            eingabeB = Console.ReadLine();
+            _b = Convert.ToInt32(eingabeB);
+
+            Console.WriteLine("Geben sie den Wert für C ein");
+            eingabeC = Console.ReadLine();
+            _c = Convert.ToInt32(eingabeC);
+
+
+
+            Console.WriteLine("Eingabe von A: " + _a);
+            Console.WriteLine("Eingabe von B: " + _b);
+            Console.WriteLine("Eingabe von C: " + _c);
+
+
+            double Xergebnis1 = Math.Pow(_a * Xwert, 2);
+
+            double Ergebnis = Xergebnis1 + _b * Xwert + _c;
+
+            Console.WriteLine(Ergebnis);
+
+            if (_a == 0)
+            {
+
+            }
+        }
 }
